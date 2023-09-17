@@ -9,3 +9,7 @@ function get_key($bit_length = 128){
     }
     return null;
 }
+//display or return key.
+$key = get_key();
+echo($key);
+return($key);
